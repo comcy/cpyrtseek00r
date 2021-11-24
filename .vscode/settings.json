@@ -1,0 +1,11 @@
+{
+    "psi-header.variables": [
+        [
+            "copyright", "Copyright (c) <<filecreated('YYYY')>> Christian Silfang (comcy) - All Rights Reserved.",
+        ],
+        [
+            "copyrightAdditional",
+            " "
+        ]
+	],
+}
