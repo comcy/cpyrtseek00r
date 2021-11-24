@@ -7,6 +7,17 @@ A tool to check on copyright headers in source code files by self defined regula
 cpyrtseek00r seek00r.conf 
 ```
 
+### Configuration
+
+```json
+{
+    includedFiles: '',
+    excludedFiles: '',
+    basePath: '',
+    searchPattern: ''
+}
+```
+
 
 ## Development
 
