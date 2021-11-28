@@ -1,4 +1,3 @@
-
 {
     "name": "cpyrtseek00r",
     "version": "0.1.0",
@@ -19,6 +18,11 @@
         "cpyrtseek00r": "./index.js"
     },
     "dependencies": {
+        "Buffer": "0.0.0",
+        "base-64": "^1.0.0",
+        "fs": "0.0.1-security",
+        "minimist": "^1.2.5",
+        "utf8": "^3.0.0"
     },
     "devDependencies": {
         "@types/node": "^10.12.2",
