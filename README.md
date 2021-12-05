@@ -25,6 +25,12 @@ cpyrtseek00r seek00r.conf
 npm run build
 ```
 
+## Using file watch and execution (Linux omly)
+
+```
+ls src/*.py | entr -c python src/main.py
+```
+
 
 ---
 
