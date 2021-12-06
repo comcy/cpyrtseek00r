@@ -1,11 +1,16 @@
-print("*"*80)
+import m_parser
+import m_encoder
 
 
-print("Test2")
-print("Test3")
-print("Test4")
-print("Test5")
-print("Test23123123")
-print("Test23123123")
+def print_welcome():
 
-print("*"*80)
+    print("*"*80)
+
+    print("Start ...")
+    print(m_encoder.decode("test"))
+
+    print("*"*80)
+
+    m_parser.parse_file()
+
+print_welcome()
